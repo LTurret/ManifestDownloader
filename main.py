@@ -3,6 +3,8 @@ import json
 import msgpack
 import requests
 
+version = None
+
 try:
     url_latest = "https://api.matsurihi.me/mltd/v1/version/latest"
     latest_information = requests.get(url_latest).content.decode("utf-8")

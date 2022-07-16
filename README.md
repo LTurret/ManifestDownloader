@@ -1,4 +1,4 @@
-# ManifestDownloader
+# mltd-manifest-downloader
 
 A python based mirishita manifest downloader.
 
